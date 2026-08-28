@@ -1,3 +1,5 @@
-public interface Pagamento {
-    public void pagar();
+public class Pattern {
+    public static Pagamento Create(){
+        
+    }
 }
