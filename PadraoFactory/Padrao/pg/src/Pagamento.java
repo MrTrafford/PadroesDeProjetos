@@ -1,6 +1,3 @@
-public class PatternPix {
-    @override
-    public static Pagamento Create(){
-        return new Pix();
-    }
+public interface  Pagamento{
+    public void pagar();
 }

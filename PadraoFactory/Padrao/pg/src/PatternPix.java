@@ -1,6 +1,8 @@
-public class PatternPix {
-    @override
-    public static Pagamento Create(){
+public class PatternPix extends Pattern{
+
+    public static Pagamento create() {
+        // TODO Auto-generated method stub
         return new Pix();
     }
+    
 }
