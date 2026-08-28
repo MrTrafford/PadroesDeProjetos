@@ -1,5 +1,5 @@
-public class FactoryPagamento {
-    public static Pagamento create(String tipo){
+public class Factory {
+    public static Pagamento criar(String tipo){
         if (tipo.equals("pix")) {
             return new Pix();
         }
@@ -7,5 +7,5 @@ public class FactoryPagamento {
             return new Cartao();
         }
         return null;
-    }
+    }   
 }
