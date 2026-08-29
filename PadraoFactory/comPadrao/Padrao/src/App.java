@@ -1,10 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        Pagamento p=Factory.criar("pix");
+        Pagamento p=FactoryPix.criar();
         System.out.println(p);
         p.realizarPagamento();
-        Pagamento c=Factory.criar("cartão");
+        Pagamento c=FactoryCartao.criar();
         System.out.println(c);
         c.realizarPagamento();
         
