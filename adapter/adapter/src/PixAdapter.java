@@ -1,4 +1,5 @@
 public class PixAdapter implements ProcessaPagamento {
+    //Nossa classe adapter
     private final PagamentoPix pagamentoPix;
 
     public PixAdapter(PagamentoPix pagamentoPix) {
