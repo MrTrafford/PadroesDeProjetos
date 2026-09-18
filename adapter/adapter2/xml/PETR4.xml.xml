@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <results>
+    <item>
+      <symbol>PETR4</symbol>
+      <shortName>PETR4</shortName>
+      <longName>Petroleo Brasileiro SA Pfd</longName>
+      <currency>BRL</currency>
+      <regularMarketPrice>48.5</regularMarketPrice>
+      <regularMarketDayHigh>48.83</regularMarketDayHigh>
+      <regularMarketDayLow>48.25</regularMarketDayLow>
+      <regularMarketDayRange>48.25 - 48.83</regularMarketDayRange>
+      <regularMarketChange>-0.11</regularMarketChange>
+      <regularMarketChangePercent>-0.23</regularMarketChangePercent>
+      <regularMarketTime>2026-09-18T21:31:30.000Z</regularMarketTime>
+      <marketCap>660061202280</marketCap>
+      <regularMarketVolume>52606500</regularMarketVolume>
+      <regularMarketPreviousClose>48.45</regularMarketPreviousClose>
+      <regularMarketOpen>48.4</regularMarketOpen>
+      <fiftyTwoWeekRange>29.31 - 50.7</fiftyTwoWeekRange>
+      <fiftyTwoWeekLow>29.31</fiftyTwoWeekLow>
+      <fiftyTwoWeekHigh>50.7</fiftyTwoWeekHigh>
+      <priceEarnings>4.686760144178271</priceEarnings>
+      <earningsPerShare>10.3482633</earningsPerShare>
+      <logourl>https://icons.brapi.dev/icons/PETR4.svg</logourl>
+    </item>
+  </results>
+  <requestedAt>2026-09-18T22:14:42.170Z</requestedAt>
+  <took>0</took>
+</data>
