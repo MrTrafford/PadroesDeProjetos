@@ -5,5 +5,6 @@ public class App {
         n.enviarNoticacaoSMS("Mensagem de teste");
         n.enviarNoticacaoEmail("Mensagem de teste");
         n.enviarNoticacaoWhatsApp("Mensagem de teste");
+      
     }
 }
