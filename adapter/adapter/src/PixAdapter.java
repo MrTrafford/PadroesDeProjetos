@@ -1,6 +1,10 @@
 // O Adaptador (Adapter): implementa a interface que o sistema conhece (ProcessaPagamento).
 public class PixAdapter implements ProcessaPagamento {
+
     // Encapsula a classe que possui a interface incompatível (Adaptee).
+=======
+    //Nossa classe adapter
+
     private final PagamentoPix pagamentoPix;
 
     // O construtor recebe a injeção da dependência da API externa.
