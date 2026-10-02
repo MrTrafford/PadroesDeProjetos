@@ -1,6 +1,6 @@
 public abstract class NotificacaoDecorator implements Notificacao {
    
-    private Notificacao n;
+    protected  Notificacao n;
 
     public NotificacaoDecorator(Notificacao n) {
         this.n = n;
