@@ -1,4 +1,5 @@
 public abstract class Veiculo {
+    //Abstração do padrão Bridge, representando um veículo genérico
     String modelo;
     Motor motor;
     String placa;
