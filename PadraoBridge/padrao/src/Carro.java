@@ -8,5 +8,8 @@ public class Carro  extends Veiculo {
         this.placa = placa;
         this.portas = portas;
     }
+    public int getPortas() {
+        return portas;
+    }
 
 }
