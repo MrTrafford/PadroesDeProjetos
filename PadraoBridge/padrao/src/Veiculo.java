@@ -1,14 +1,8 @@
 public abstract class Veiculo {
     //Abstração do padrão Bridge, representando um veículo genérico
-    String modelo;
-    Motor motor;
-    String placa;
-
-    public Veiculo(String modelo, Motor motor, String placa) {
-        this.modelo = modelo;
-        this.motor = motor;
-        this.placa = placa;
-    }
+    private String modelo;
+    private Motor motor;
+    private String placa;
     public void ligarMotor() {
         motor.ligar();
     }
