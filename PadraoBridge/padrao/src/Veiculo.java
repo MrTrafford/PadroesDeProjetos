@@ -15,19 +15,10 @@ public abstract class Veiculo {
     public String getModelo() {
         return modelo;
     }
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
     public Motor getMotor() {
         return motor;
     }
-    public void setMotor(Motor motor) {
-        this.motor = motor;
-    }
     public String getPlaca() {
         return placa;
-    }
-    public void setPlaca(String placa) {
-        this.placa = placa;
     }
 }
