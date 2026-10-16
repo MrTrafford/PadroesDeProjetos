@@ -19,6 +19,6 @@ public class App {
         raiz.adicionar(p2);
         //Adicionando pastas à raiz
 
-        raiz.exibirEstrutura();
+        raiz.exibir("");
     }
 }

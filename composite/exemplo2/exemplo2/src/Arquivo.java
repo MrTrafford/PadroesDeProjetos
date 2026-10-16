@@ -19,7 +19,7 @@ public class Arquivo implements Componente {
 
     @Override
     public void exibir(String indentacao) {
-        System.out.println(indentacao + "Arquivo: " + nome + " (Tamanho: " + tamanho + ")");
+        System.out.println(indentacao + "Arquivo: " + nome + " (Tamanho: " + tamanho + " MB)");
     }
 
 }
