@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -10,3 +11,18 @@ public class App {
         System.out.println("O valor do frete econômico é "+cf.calcular()+" reais");
     }
 }
+=======
+public class App {
+    public static void main(String[] args) throws Exception {
+        System.out.println("Hello, World!");
+        double peso = 3.0;
+        CalculadoraFrete cf = new  CalculadoraFrete(new FreteEconomico("Correios", peso));
+        System.out.println("O valor do frete econômico é "+cf.calcular()+" reais");
+        cf.setF(new FreteExpresso("Aéreo", peso));
+        System.out.println("O valor do frete expresso é "+cf.calcular()+" reais");
+        cf.setF(new  FreteTransportadora("Caminhão", peso));
+        System.out.println("O valor do frete por transportadora é "+cf.calcular()+" reais");
+        
+    }
+}
+>>>>>>> f5452f682a29c3c24007df90913c24f638a4867c
